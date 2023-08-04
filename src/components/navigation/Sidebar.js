@@ -21,8 +21,8 @@ function Sidebar(){
     const location = useLocation()
 
     const navigation = [
-        { name: 'Dashboard', href: '/dashboard', icon: HomeIcon, current: location.pathname==='/dashboard' ? true:false },
-        { name: 'Blog', href: '/blog', icon: RssIcon, current: location.pathname==='/blog' ? true:false },
+        { name: 'Proximamente', href: '/dashboard', icon: HomeIcon, current: location.pathname==='/dashboard' ? true:false },
+        { name: 'Mis Publicaciones', href: '/blog', icon: RssIcon, current: location.pathname==='/blog' ? true:false },
     ]
 
     return(
