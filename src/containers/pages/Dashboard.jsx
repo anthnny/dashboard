@@ -4,7 +4,7 @@ import { connect } from "react-redux"
 function Dashboard(){
     return(
         <Layout>
-            Dashboard
+            Proximamente
         </Layout>
     )
 }

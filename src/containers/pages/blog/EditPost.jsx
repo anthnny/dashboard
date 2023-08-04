@@ -403,7 +403,7 @@ function EditPost({
                         Eliminar
                     </button>
                     <a
-                        href={`${process.env.REACT_APP_URL}/remedios/${post.slug}`}
+                        href={`${process.env.REACT_APP_API_URL}/remedios/${post.slug}`}
                         target="_blank"
                         className="relative mx-1 inline-flex items-center rounded-md border border-transparent bg-gray-600 px-4 py-2 text-sm font-medium text-white shadow-sm hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2"
                     >
