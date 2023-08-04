@@ -415,7 +415,7 @@ function EditPost({
                     >
                         {
                             post.get_status==='published'?
-                            <>Draft</>:<>Publicar</>
+                            <>Redactar</>:<>Publicar</>
                         }
                     </button>
                     </div>
@@ -933,7 +933,7 @@ function EditPost({
                             <Dialog.Title as="h3" className="text-lg font-medium leading-6 text-gray-900">
                             {
                                 post.get_status === 'published' ?
-                                <span>Draft this post?</span>
+                                <span>Deseas Redactarlo?</span>
                                 :
                                 <span>Deseas Publicarlo?</span>
 

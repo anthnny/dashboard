@@ -129,7 +129,7 @@ function Layout({
             <div className="flex min-h-0 flex-1 flex-col  shadow-card  bg-white">
                 <div className="flex flex-1 flex-col overflow-y-auto pt-5 pb-4">
                 <div className="flex flex-shrink-0 items-center px-4">
-                <Link to='/' className="ml-4 mt-2">
+                <Link to='{https://herbacare.onrender.com}' className="ml-4 mt-2">
                         <img
                             src={'https://bafybeiew7xsf7ofhjqcwwfoya477g4czceckwr3yg5gbqbn3utk5eomz3a.ipfs.w3s.link/logoo.png'}
                             width={160}
@@ -216,11 +216,11 @@ function Layout({
                     </div>
                     <div className="mt-3 text-center sm:mt-5">
                         <Dialog.Title as="h3" className="text-lg font-medium leading-6 text-gray-900">
-                        Payment successful
+                        ¿Deseas cerrar sesion?
                         </Dialog.Title>
                         <div className="mt-2">
                         <p className="text-sm text-gray-500">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur amet labore.
+                            Se ha cerrado exitosamente!
                         </p>
                         </div>
                     </div>
